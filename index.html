@@ -2,32 +2,58 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Trang Chủ - Nha Trang Sea</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nha Trang Tourism - Cổng thông tin du lịch</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
-        <nav class="navbar">
-            <div class="logo">Nha Trang <span>Sea</span></div>
+        <div class="container navbar">
+            <div class="logo">
+                <a href="index.html">NHA TRANG <span>TOURISM</span></a>
+            </div>
             <ul class="nav-links">
-                <li><a href="index.html" class="active">Trang chủ</a></li>
-                <li><a href="gioithieu.html">Giới thiệu</a></li>
-                <li><a href="dacsan.html">Đặc sản</a></li>
-                <li><a href="lienhe.html">Liên hệ</a></li>
+                <li><a href="index.html" class="active">TRANG CHỦ</a></li>
+                <li><a href="gioithieu.html">GIỚI THIỆU</a></li>
+                <li><a href="dacsan.html">ĐẶC SẢN</a></li>
+                <li><a href="lienhe.html">LIÊN HỆ</a></li>
             </ul>
-        </nav>
+        </div>
     </header>
 
     <section class="hero">
-        <div class="hero-content">
-            <h1>Khám Phá Biển Xanh Nha Trang</h1>
-            <p>Vịnh biển đẹp nhất thế giới đang chờ đón bạn</p>
-            <a href="gioithieu.html" class="btn">Bắt đầu hành trình</a>
+        <div class="hero-overlay">
+            <h1>KHÁM PHÁ NHA TRANG</h1>
+            <p>Điểm đến an toàn, thân thiện và hấp dẫn</p>
+            <div class="search-box">
+                <input type="text" placeholder="Bạn muốn đi đâu?">
+                <button>Tìm kiếm</button>
+            </div>
         </div>
     </section>
 
+    <main class="container">
+        <h2 class="main-title">ĐIỂM ĐẾN NỔI BẬT</h2>
+        <div class="grid-destinations">
+            <div class="dest-card">
+                <img src="https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=500" alt="Vinpearl">
+                <h3>Vinpearl Land</h3>
+            </div>
+            <div class="dest-card">
+                <img src="https://images.unsplash.com/photo-1559592413-7ece35996518?w=500" alt="Tháp Bà">
+                <h3>Tháp Bà Ponagar</h3>
+            </div>
+            <div class="dest-card">
+                <img src="https://images.unsplash.com/photo-1590603740183-980e7f6920eb?w=500" alt="Hòn Chồng">
+                <h3>Danh thắng Hòn Chồng</h3>
+            </div>
+        </div>
+    </main>
+
     <footer>
-        <p class="copyright">© 2026 Website Giới Thiệu Quê Hương - Nha Trang Sea</p>
+        <p>© 2026 Du lịch Nha Trang - Thiết kế theo phong cách tối giản</p>
     </footer>
+
 </body>
 </html>
